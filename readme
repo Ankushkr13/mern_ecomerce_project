@@ -1,0 +1,28 @@
+server --------
+
+1. make a folder server
+2. package install
+   npm init - y
+3. install dependencies
+   npm i express
+   npm i mongoose dotenv
+   npm i colors
+   npm i morgan
+4. work on app.js file that is main file import all the modules.
+5. make env file to secure sensective information.
+6. work on config file this is database file to setup to connect db
+7. make models folder inside user file we set the schema of the db
+8. Make a routes folder inside the routes folder we make a file named authRoute.js and to create routes.
+9. We will make a new folder named controller inside the authcontroller file creatred because we use MVC pattern follow that is we will make a seprate controller creting.
+10. Make another folder named as helper for has and bcrypt the password.
+    Install package for password
+    npm i bcrypt
+11. validation in authcontroller name , email , password all these thing should be validate
+12. for more secure we can use json web token
+    npm i jsonwebtoken
+13. WE will make login and valiadate finally login setup and register with full validation
+14. we will make middlewares folder inside thr folder we will make a file authmiddleware.js procted middleware
+15. In middleware we make isAdmin for admin access we create to access the admin , isAdmin fier admin access and token check in middleware registerSignIn (protected middleware)
+
+................................................................................................................
+NOW WE WILL START CLIENT SIDE (REACT JS)
